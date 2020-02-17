@@ -42,8 +42,8 @@ button {
 
 footer {
     display: block;
-    width: 100%;
-    margin: 0 0;
+    width: 720px;
+    margin: auto;
     padding-top: 10px;
     padding-bottom: 15px;
     color: rgb(126, 126, 126);
@@ -97,6 +97,8 @@ h1 {
 
 #field2 {
     margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
     background-image: linear-gradient(white, yellow);
 }
 
@@ -107,7 +109,7 @@ h1 {
 }
 
 .checkbox,
-.radiobox {
+.radio {
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -165,7 +167,7 @@ textarea:focus {
 /* ================ tablet screen+ =================== */
 
 @media (min-width: 720px) {
-    body {
+    main {
         width: 720px;
         margin: auto;
     }
