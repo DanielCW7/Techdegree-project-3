@@ -3,8 +3,8 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-size=1">
-    <link rel="stylesheet" href="styles.css" >
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css" >
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <title> Project 3 </title>
 </head>
@@ -18,6 +18,7 @@
 
 
 <main>
+    
 <fieldset>
     <h2> Signup For Our Newsletter </h2>
         <p class="intro"> Get the latest news on how your code is doing right in your inbox </p>
@@ -118,7 +119,7 @@
 
 <fieldset id="field2">
     <legend class="Newsletter"> Newsletter </legend>
-        <label> Select the newsletters that you would like to receive </label>
+        <label for="checkbox"> Select the newsletters that you would like to receive </label>
             
             <div class="checkbox">
             <input type="checkbox"  name="checkbox" id="HTML_News"> HTML News <br>
@@ -132,17 +133,17 @@
             <input type="checkbox" name="checkbox" id="Javascript_News"> Javascript News <br>
             </div>
 
-        <label> Newsletter Format </label>
+        <label for="radio"> Newsletter Format </label>
 
             <div class="radio">
-            <input type="radio" name="HTML" id="HTML"> HTML <br>
+            <input type="radio" name="radio" id="HTML"> HTML <br>
             </div>
 
             <div class="radio">
-            <input type="radio" name="Plain_Text" id="Plain_Text"> Plain Text <br>
+            <input type="radio" name="radio" id="Plain_Text"> Plain Text <br>
             </div>
 
-        <label> Other topics you'd like to hear about </label>
+        <label for="textarea"> Other topics you'd like to hear about </label>
             <textarea id="topicselection" name="topic_selection"> </textarea>
 
         <button type="submit"> Sign Up </button>
