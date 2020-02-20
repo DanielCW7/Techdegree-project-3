@@ -49,10 +49,17 @@ fieldset {
 button {
     border-style: none;
     border-radius: 5px;
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    /* display: flex;
+    justify-content: center; */
+
+
+    margin: auto;
+    width: 100%;
+    max-width: 744px;
     height: 50px;
+
+    
+
     background: rgb(71, 128, 182);
     color: white;
     font-size: 1.5em;
@@ -60,13 +67,18 @@ button {
 
 }
 
+.button {
+    background: yellow;
+    max-width: 768px;
+    padding: 12px;
+}
+
 footer {
     display: block;
-    max-width: 720px;
+    max-width: 768px;
     margin: auto;
     padding-top: 10px;
     padding-bottom: 15px;
-    color: rgb(126, 126, 126);
     background: yellow;
 }
 
@@ -177,12 +189,12 @@ textarea:focus {
     color: white;
 }
 
-/* ================ tablet screen+ =================== */
+/* ================ tablet screen 768px+ =================== */
 
-@media (min-width: 720px) {
+@media (min-width: 768px) {
     
     main {
-        width: 720px;
+        width: 768px;
         margin: auto;
     }
 
@@ -217,7 +229,7 @@ textarea:focus {
 
     #zip {
         width: 150px;
-        margin-left: 77px;
+        margin-left: 127px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
